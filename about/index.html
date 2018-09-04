@@ -162,4 +162,18 @@
 <script src="/js/index.js"></script>
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
+<script src="/js/gitment.js"></script>
+<script>
+    var gitment = new Gitment({
+        id: 'About',
+        owner: 'helloztt',
+        repo: 'https://github.com/helloztt/helloztt.github.io.git',
+        oauth: {
+            client_id: '3453354776aae1fdb8f6',
+            client_secret: 'de8066026468eb450de4aa21939716bc6d9fa826',
+        },
+    })
+    gitment.render('comment-container')
+</script>
+
 </html>
